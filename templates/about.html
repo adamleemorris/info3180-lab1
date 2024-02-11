@@ -3,9 +3,15 @@
 <head>
  <meta charset="UTF-8">
  <title>My Website - About</title>
+ <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}" />
 </head>
 <body>
  <h1>Adam-Lee Morris</h1>
  <p>If you can imagine a furry humanoid seven feet tall, with the face of an intelligent gorilla and the braincase of a man, you'll have a rough idea of what they looked like -- except for their teeth. The canines would have fitted better in the face of a tiger, and showed at the corners of their wide, thin-lipped mouths, giving them an expression of ferocity.</p>
+ <div class="image-container">
+    <img src="{{ url_for('static', filename='microsoft.jpg') }}" alt="Microsoft image">
+
+ </div>
+ 
 </body>
 </html> 
